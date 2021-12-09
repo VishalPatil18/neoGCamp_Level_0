@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Orbitron:wght@700&display=swap");
+
+:root {
+  --primaryColor: rgb(20, 21, 34);
+  --secondaryColor: rgb(255, 255, 255);
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: left;
+  width: 100%;
+  max-width: 600px;
+  margin: auto;
+  font-family: "Open Sans", sans-serif;
+  color: var(--secondaryColor);
+}
+
+.btn-grp {
+  text-align: center;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Orbitron", sans-serif;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+body {
+  margin: 2rem;
+  background-image: linear-gradient(to top, #bdc3c7, #2c3e50);
+  min-height: 100vh;
+}
+
+button.btn {
+  margin: 1rem 1rem 1rem 0rem;
+  padding: 0.5rem 0.8rem;
+  border: 1px solid var(--primaryColor);
+  background-color: var(--primaryColor);
+  color: var(--secondaryColor);
+}
+button:hover {
+  background-color: rgb(0, 0, 0, 0.5);
+  border: 1px solid white;
+}
+
+ul {
+  padding-inline-start: 0;
+}
+
+li {
+  display: flex;
+  justify-content: center;
+  align-items: top;
+  background-color: var(--primaryColor);
+  margin-bottom: 1rem;
+  border-radius: 1rem;
+}
+
+img {
+  min-height: 150px;
+  width: 100px;
+  object-fit: fill;
+  padding: 1rem 0rem 1rem 1rem;
+}
+
+a {
+  color: #0080ff;
+  text-decoration: none;
+}
+
+footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: var(--primaryColor);
+  text-align: center;
+}
+
+footer a {
+  font-family: "Orbitron", sans-serif;
+  color: var(--primaryColor);
+  text-decoration: none;
+  font: bold;
+}

@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Slab&display=swap");
+
+.App {
+  font-family: roboto, serif;
+  text-align: center;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: linear-gradient(0deg, #ff5f6d, #ffc371);
+}
+
+h1 {
+  font-size: 4.5rem;
+  font-family: "Josefin Slab", serif;
+}
+
+input {
+  width: 90%;
+  max-width: 500px;
+  padding: 10px;
+  border-radius: 5px;
+  border: solid 2px rgba(0, 0, 0, 0.5);
+}
+
+span {
+  margin: 0 5px;
+  font-size: 2rem;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+li {
+  cursor: pointer;
+  font-size: 2rem;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+  font: bold;
+}
+
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+  ul {
+    padding: 0;
+  }
+  li {
+    font-size: 1.5rem;
+  }
+}
