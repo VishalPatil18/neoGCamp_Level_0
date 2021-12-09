@@ -1,0 +1,223 @@
+/* index.html */
+
+body, html {
+    height: 100%;
+    margin: 0px;
+  }
+
+#quiz-bg {
+    width: auto;
+    height: auto;
+    font-family:'Courier New', Courier, monospace;
+    background: url(images/tri-bg.jpg);
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+#index-centre {
+    background-color: grey;
+    margin: auto;
+    padding: 5rem;
+    text-align: center;
+}
+
+#index-heading {
+    text-align: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+
+.index-btn {
+    padding: 2rem;
+    border-radius: 2rem;
+    margin: 2rem;
+    font-size: large;
+    border-width: 3px;
+}
+
+.index-btn a {
+    text-decoration: none;
+    color: black;
+}
+
+/* istriangle.html */
+
+#istri-bg {
+    width: 100%;
+    height: 100%;
+    font-family:'Courier New', Courier, monospace;
+    background: url(images/tri-bg.jpg);
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+.istri-centre {
+    background-color: grey;
+    margin: auto;
+    padding: 2rem;
+    text-align: center;
+    margin-top: 4rem;
+    min-width: 800px;
+}
+
+.angle-input {
+    display: block;
+    margin: auto;
+    padding: 0.5rem;
+    margin-bottom: 2rem;
+}
+
+.istri-centre label {
+    margin: auto;
+    font-size: larger;
+    padding: 2rem;
+    font-weight: bold;
+}
+
+#check-triangle, #submit-btn, #hypo-btn, #checkarea-btn {
+    padding: 1rem;
+    border-radius: 2rem;
+    margin: 2rem;
+    font-size: large;
+    border-width: 3px;
+}
+
+/* triangle quiz */
+
+
+#quiz-centre {
+    background-color: grey;
+    margin: auto;
+    padding: 2rem;
+    text-align: center;
+    margin-top: 4rem;
+    min-width: 800px;
+}
+
+#quiz-centre #output {
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.ques-container {
+    background-color: rgba(255, 255, 255, 0.712);
+    font-size: large;
+}
+
+.ques-container p {
+    font-weight: bold;
+}
+
+/* hypotenuse */
+
+.hypo-centre, .area-centre {
+    background-color: grey;
+    margin: auto;
+    padding: 2rem;
+    text-align: center;
+    margin-top: 4rem;
+    min-width: 800px;
+}
+
+.hypo-centre input, .area-centre input {
+    display: block;
+    margin: auto;
+    padding: 0.5rem;
+    margin-bottom: 2rem;
+}
+
+.hypo-centre label, .area-centre label {
+    margin: auto;
+    font-size: larger;
+    padding: 2rem;
+    font-weight: bold;
+}
+
+.hypo-centre #output, .area-centre #output {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+/* area */
+
+.area-centre {
+    min-height: 450px;
+}
+
+
+
+
+/* nav */
+
+.upper-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+
+.upper-nav li {
+    float: right;
+    font-size: larger;
+}
+
+#home{
+    float: left;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.5rem;
+}
+  
+.upper-nav li a, .social li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+.active {
+background-color: black;
+}
+
+
+/* bottom nav */
+
+.social {
+    list-style-type: none;
+    background-color: #333;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    overflow: hidden;
+}
+
+.social ul {
+    list-style-type: none;
+    padding-inline-start: 0px;
+    text-align: center;
+}
+
+.social li {
+    display: inline-block;
+    padding: 0rem 0.5rem;
+    font-size: larger;
+}
+
+.quizlinks {
+    position: relative;
+}
+
+
+
+  

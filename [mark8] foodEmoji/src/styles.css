@@ -1,0 +1,13 @@
+.App {
+  font-family: serif;
+  text-align: center;
+}
+
+body {
+  background-color: bisque;
+}
+
+h1,
+h3 {
+  padding: 1rem;
+}

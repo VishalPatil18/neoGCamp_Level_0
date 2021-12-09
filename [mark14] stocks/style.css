@@ -1,0 +1,98 @@
+body, html {
+    height: 100%;
+    margin: 0px;
+    text-align: center;
+}
+
+h1, label {
+    
+    color: white;
+}
+
+label {
+    display: block;
+    padding-bottom: 1rem;
+}
+
+.container {
+    background-color: #134E4A;
+    margin: auto;
+    padding: 2rem;
+    text-align: center;
+    margin-top: 2rem;
+    min-width: 800px;
+    width: fit-content;
+    min-height: 500px;
+}
+
+input {
+    padding: 0.5rem;
+    display: block;
+    margin: auto;
+    width: 30%;
+}
+
+label {
+    padding: 0.5rem;
+    display: block;
+    margin: auto;
+    font-size: larger;
+    margin-bottom: 1rem;
+}
+
+button {
+    padding: 1rem;
+    border-radius: 1rem;
+    margin: 1rem;
+    font-size: large;
+    border-width: 3px;
+    width: 15%;
+}
+
+
+
+
+
+.social {
+    list-style-type: none;
+    background-color: #0F766E;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    overflow: hidden;
+}
+
+.social ul {
+    list-style-type: none;
+    padding-inline-start: 0px;
+    text-align: center;
+}
+
+.social li {
+    display: inline-block;
+    padding: 0rem 0.5rem;
+    font-size: larger;
+}
+
+.quizlinks {
+    position: relative;
+}
+
+.social li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#output {
+    background-color: #F0FDF4;
+    padding: 1rem;  
+    min-height: 3rem;  
+    font-size: large;
+}
+
+
+
+  

@@ -1,0 +1,97 @@
+:root {
+    --primary: #4F46E5;
+    --black: #333333;
+    --width-break: 600px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    color: #ffffff;
+    font-family: 'Snell Roundhand', cursive;
+}
+
+nav {
+    display: block;
+    background-color: var(--primary);
+    text-align: center;
+    margin-top: 0;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+}
+
+nav div {
+    font-size: 2rem;
+    padding: 2rem;
+}
+
+#txt-input {
+    margin-top: 1rem;
+    display: block;
+    width: 100%;
+    min-height: 20vh;
+    font-size: 1.3rem;
+    font-family: inherit;
+}
+
+.main {
+    margin: auto;
+    max-width: var(--width-break);
+    padding: 2rem;
+}
+
+#btn-translate {
+    margin: auto;
+    background-color: var(--primary);
+    margin: 2rem 0rem;
+    padding: 1rem 2rem;
+    font-size: 1.1rem;
+    font-family: inherit;
+    color: #ffffff;
+    border-radius: 1rem;
+}
+
+.outputtext {
+    font-size: large;
+    margin-bottom: 1rem;
+    color: var(--black);
+}
+
+#output {
+    width: 100%;
+    min-height: 10vh;
+    max-height: 20vh;
+    overflow: scroll;
+    border: 1px solid var(--black);
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+    font-family: inherit;
+    color: var(--black);
+}
+
+footer {
+    display: block;
+    background-color: var(--primary);
+    text-align: center;
+    bottom: 0;
+    position: relative;
+    width: 100%;
+    padding: 1rem;    
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+}
+
+footer div {
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+
+footer p {
+    max-width: var(--width-break);
+    margin: auto;
+}
+
+
