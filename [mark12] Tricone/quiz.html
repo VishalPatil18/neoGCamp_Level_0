@@ -1,172 +1,223 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <title>Triangle Quiz</title>
-</head>
+    <title>Tricone | Triangle Quiz</title>
+  </head>
 
-<body>
-
-    <div id="quiz-bg"> 
-        <nav class="upper-nav">
-            <ul>
-                <li id="home"><a href="index.html">Fun With Triangles</a></li>
-                <li><a href="istriangle.html">Is Triangle?</a></li>
-                <li class="active"><a href="quiz.html">Triangle Quiz</a></li>
-                <li><a href="hypotenuse.html">Hypotenuse</a></li>
-                <li><a href="area.html">Area of Triangle</a></li>
-            </ul>
-            
-        </nav>
-    <div id="quiz-centre">    
+  <body>
+    <div id="quiz-bg">
+      <nav class="upper-nav">
+        <ul>
+          <li id="home"><a href="index.html">Tricone</a></li>
+          <li><a href="istriangle.html">Is Triangle?</a></li>
+          <li class="active"><a href="quiz.html">Triangle Quiz</a></li>
+          <li><a href="hypotenuse.html">Hypotenuse</a></li>
+          <li><a href="area.html">Area of Triangle</a></li>
+        </ul>
+      </nav>
+      <div id="quiz-centre">
         <h1>Triangle Quiz</h1>
-        <p style="font-weight: bold; font-size: large; border: 2px solid;">Answering all questions is mandatory</p>
+        <p style="font-weight: bold; font-size: large; border: 2px solid">
+          Answering all questions is mandatory
+        </p>
 
         <form class="quiz-form">
-            <div class="ques-container">
-                <p>If a triangle has angles 25°, 25°, 130°, what is the type?</p>
-                <label>
-                    <input required type="radio" name="question1" value="equilateral" />equilateral 
-                </label>
-                <label>
-                    <input type="radio" name="question1" value="right-angled" />right-angled
-                </label>
-                <label>
-                    <input type="radio" name="question1" value="isosceles" />isosceles
-                </label>
-            </div>
+          <div class="ques-container">
+            <p>If a triangle has angles 25°, 25°, 130°, what is the type?</p>
+            <label>
+              <input
+                required
+                type="radio"
+                name="question1"
+                value="equilateral"
+              />equilateral
+            </label>
+            <label>
+              <input
+                type="radio"
+                name="question1"
+                value="right-angled"
+              />right-angled
+            </label>
+            <label>
+              <input type="radio" name="question1" value="isosceles" />isosceles
+            </label>
+          </div>
 
-            <div class="ques-container">
-                <p>The obtuse-angled triangle must have:</p>
-                <label>
-                    <input required type="radio" name="question2" value="four obtuse angles" />four obtuse angles 
-                </label>
-                <label>
-                    <input type="radio" name="question2" value="three obtuse angles" />three obtuse angles
-                </label>
-                <label>
-                    <input type="radio" name="question2" value="one obtuse angle" />one obtuse angle
-                </label>
-            </div>
+          <div class="ques-container">
+            <p>The obtuse-angled triangle must have:</p>
+            <label>
+              <input
+                required
+                type="radio"
+                name="question2"
+                value="four obtuse angles"
+              />four obtuse angles
+            </label>
+            <label>
+              <input
+                type="radio"
+                name="question2"
+                value="three obtuse angles"
+              />three obtuse angles
+            </label>
+            <label>
+              <input
+                type="radio"
+                name="question2"
+                value="one obtuse angle"
+              />one obtuse angle
+            </label>
+          </div>
 
-            <div class="ques-container">
-                <p>If a triangle has angles 90°, 60°, 30° choose correct option for what it is called?</p>
-                <label>
-                    <input required type="radio" name="question3" value="obtuse triangle" />obtuse triangle 
-                </label>
-                <label>
-                    <input type="radio" name="question3" value="right triangle" />right triangle
-                </label>
-                <label>
-                    <input type="radio" name="question3" value="acute triangle" />acute triangle
-                </label>
-            </div>
+          <div class="ques-container">
+            <p>
+              If a triangle has angles 90°, 60°, 30° choose correct option for
+              what it is called?
+            </p>
+            <label>
+              <input
+                required
+                type="radio"
+                name="question3"
+                value="obtuse triangle"
+              />obtuse triangle
+            </label>
+            <label>
+              <input
+                type="radio"
+                name="question3"
+                value="right triangle"
+              />right triangle
+            </label>
+            <label>
+              <input
+                type="radio"
+                name="question3"
+                value="acute triangle"
+              />acute triangle
+            </label>
+          </div>
 
-            <div class="ques-container">
-                <p>If a triangle has angles 135°, 15°, 30°, is it an obtuse triangle?</p>
-                <label>
-                    <input required type="radio" name="question4" value="Yes" />Yes
-                </label>
-                <label>
-                    <input type="radio" name="question4" value="No" />No
-                </label>
-            </div>
+          <div class="ques-container">
+            <p>
+              If a triangle has angles 135°, 15°, 30°, is it an obtuse triangle?
+            </p>
+            <label>
+              <input required type="radio" name="question4" value="Yes" />Yes
+            </label>
+            <label>
+              <input type="radio" name="question4" value="No" />No
+            </label>
+          </div>
 
-            <div class="ques-container">
-                <p>If a triangle has angles 15°, 90°, 75°, is it a right triangle?</p>
-                <label>
-                    <input required type="radio" name="question5" value="Yes" />Yes
-                </label>
-                <label>
-                    <input type="radio" name="question5" value="No" />No
-                </label>
-            </div>
+          <div class="ques-container">
+            <p>
+              If a triangle has angles 15°, 90°, 75°, is it a right triangle?
+            </p>
+            <label>
+              <input required type="radio" name="question5" value="Yes" />Yes
+            </label>
+            <label>
+              <input type="radio" name="question5" value="No" />No
+            </label>
+          </div>
 
-            <div class="ques-container">
-                <p>If a triangle has two angles 125° and 30° what is the third angle?</p>
-                <label>
-                    <input required type="radio" name="question6" value="35°" />35° 
-                </label>
-                <label>
-                    <input type="radio" name="question6" value="25°" />25°
-                </label>
-                <label>
-                    <input type="radio" name="question6" value="180°" />180°
-                </label>
-            </div>
+          <div class="ques-container">
+            <p>
+              If a triangle has two angles 125° and 30° what is the third angle?
+            </p>
+            <label>
+              <input required type="radio" name="question6" value="35°" />35°
+            </label>
+            <label>
+              <input type="radio" name="question6" value="25°" />25°
+            </label>
+            <label>
+              <input type="radio" name="question6" value="180°" />180°
+            </label>
+          </div>
 
-            <div class="ques-container">
-                <p>What is the sum of any two of the angles of an equilateral triangle?</p>
-                <label>
-                    <input required type="radio" name="question7" value="120°" />120° 
-                </label>
-                <label>
-                    <input type="radio" name="question7" value="60°" />60°
-                </label>
-                <label>
-                    <input type="radio" name="question7" value="180°" />180°
-                </label>
-            </div>
-            
-            <div class="ques-container">
-                <p>A triangle whose no two sides are equal is known as:</p>
-                <label>
-                    <input required type="radio" name="question8" value="equilateral" />equilateral 
-                </label>
-                <label>
-                    <input type="radio" name="question8" value="scalene" />scalene
-                </label>
-                <label>
-                    <input type="radio" name="question8" value="isosceles" />isosceles
-                </label>
-            </div>
+          <div class="ques-container">
+            <p>
+              What is the sum of any two of the angles of an equilateral
+              triangle?
+            </p>
+            <label>
+              <input required type="radio" name="question7" value="120°" />120°
+            </label>
+            <label>
+              <input type="radio" name="question7" value="60°" />60°
+            </label>
+            <label>
+              <input type="radio" name="question7" value="180°" />180°
+            </label>
+          </div>
 
-            <div class="ques-container">
-                <p>A triangle whose one angle is more than 90° is called:</p>
-                <label>
-                    <input required type="radio" name="question9" value="obtuse" />obtuse 
-                </label>
-                <label>
-                    <input type="radio" name="question9" value="scalene" />scalene
-                </label>
-                <label>
-                    <input type="radio" name="question9" value="acute" />acute
-                </label>
-            </div>
+          <div class="ques-container">
+            <p>A triangle whose no two sides are equal is known as:</p>
+            <label>
+              <input
+                required
+                type="radio"
+                name="question8"
+                value="equilateral"
+              />equilateral
+            </label>
+            <label>
+              <input type="radio" name="question8" value="scalene" />scalene
+            </label>
+            <label>
+              <input type="radio" name="question8" value="isosceles" />isosceles
+            </label>
+          </div>
 
-            <div class="ques-container">
-                <p>Two acute angles whose sum is an acute angle is:</p>
-                <label>
-                    <input required type="radio" name="question10" value="60, 45" />60, 45 
-                </label>
-                <label>
-                    <input type="radio" name="question10" value="90, 90" />90, 90
-                </label>
-                <label>
-                    <input type="radio" name="question10" value="30, 45" />30, 45
-                </label>
-            </div>
-            
-            <button id="submit-btn" type = "submit">Submit Quiz</button>
+          <div class="ques-container">
+            <p>A triangle whose one angle is more than 90° is called:</p>
+            <label>
+              <input
+                required
+                type="radio"
+                name="question9"
+                value="obtuse"
+              />obtuse
+            </label>
+            <label>
+              <input type="radio" name="question9" value="scalene" />scalene
+            </label>
+            <label>
+              <input type="radio" name="question9" value="acute" />acute
+            </label>
+          </div>
+
+          <div class="ques-container">
+            <p>Two acute angles whose sum is an acute angle is:</p>
+            <label>
+              <input
+                required
+                type="radio"
+                name="question10"
+                value="60, 45"
+              />60, 45
+            </label>
+            <label>
+              <input type="radio" name="question10" value="90, 90" />90, 90
+            </label>
+            <label>
+              <input type="radio" name="question10" value="30, 45" />30, 45
+            </label>
+          </div>
+
+          <button id="submit-btn" type="submit">Submit Quiz</button>
         </form>
 
-        
         <div id="output"></div>
-    </div>      
-    </div>   
-    <div class="social quizlinks">
-        <ul>
-            <li><a target="_blank" class="link" href="https://www.linkedin.com/in/bhavya-j-438178184">LinkedIn</a></li>
-            <li><a target="_blank" class="link" href="https://github.com/bhavyaj12">Github</a></li>
-            <li><a target="_blank" class="link" href="https://bhavyaj-portfolio.netlify.app/">Portfolio</a></li>
-        </ul>
-        
+      </div>
     </div>
     <script src="quiz.js"></script>
-</body>
-
+  </body>
 </html>

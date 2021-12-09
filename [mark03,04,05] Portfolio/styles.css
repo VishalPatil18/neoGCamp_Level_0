@@ -41,7 +41,7 @@ hr {
 .link-primary {
   background-color: var(--dark-color);
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-  color: var(--tertiary-color);
+  color: var(--primary-color);
   display: block;
   text-align: center;
   max-width: 140px;
@@ -160,7 +160,7 @@ hr {
 .ow {
   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
   max-width: 700px;
-  background-color: var(--secondary-color);
+  background-color: var(--primary-color);
 }
 
 .footer {
